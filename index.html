@@ -3,16 +3,54 @@
 
 <head>
     <title>Login Page</title>
+    
+    <style>
+        #bg{
+            background-color: azure;
+        }
 
+        #id{
+            text-align: right;
+            size-adjust: 500rem;
+            color: white;
+        }
+
+        .class{
+            color: white;
+            background-color: purple;
+        }
+
+        .btncolor{
+            background-color: brown;
+            font-size: medium;
+            color: white;
+        }
+
+        .header{
+            background-color: brown;
+            font-size: 4rem;
+            color: white;
+            text-align: center;
+        }
+
+        .btnevent:hover{
+            
+            background-color: aqua;
+
+        }
+
+
+    </style>
 </head>
 
-<body>
-    <div style="text-align: center;">
-        <h1>Login</h1>
-        <input type="text" placeholder="Username">
-        <input type="text" placeholder="Password">
+<body id="bg">
+    
+    <div style="text-align: center;" >
+        <h1 class="header"><img src="C:\xampp\htdocs\Tew_Prince\activity_3\plus.png" height="100" width="100">Login </h1>
+        <input type="text" placeholder="Username" class="class" id="id">
+        <input type="text" placeholder="Password" class="class" id="id" > 
         <div style="margin-top: 1rem;">
-            <button id="btnlogin">Login</button>
+            <button id="btnlogin" class="btnevent" >Login</button>
         </div>
     </div>
 
